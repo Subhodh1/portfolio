@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"content="IE-edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>
+        My portfolio
+    </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="Intro.html">Introduction</a></li>
+                    <li><a href="Services.html">Services</a></li>
+                    <li><a href="cv.html">Contact Me</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="hamburger">
+                <img class="ham" src="l.png" alt="" width="10px" height="10px" style="position: absolute; cursor: pointer; top: 10px; left: 10px;" >
+                <img class="cross" src="c.png" alt="" width="10px" height="10px" style="position: absolute; cursor: pointer; top: 10px; left: 225px;">
+            </div>
+            <div class="contactform">
+                <h2>In order to get in touch Please fill the below form </h2>
+                <form>
+                    <div class="mb-3">
+                        <label for="clientname" class="form-label">Name</label>
+                        <input type="name" class="form-control" id="clientname">
+                      </div>
+                    <div class="mb-3">
+                      <label for="clientemail" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text" style="font-size: xx-small; color: red; margin: 6px;">We will never share your personal information (like email address and contact number) with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="clientcontact" class="form-label">Contact number</label>
+                      <input type="contact" class="form-control" id="clientcontact">
+                    </div>
+                    <div class="mb-3">
+                        <label for="hobbies" class="form-label">Hobbies</label>
+                        <input type="Hobbies" class="form-control" id="clienthobbies">
+                      </div>
+                    
+                    <div class="mb-3" id="form-check">
+                      <input type="checkbox" class="form-check-input" id="isclient">
+                      <label class="form-check-label" for="isclient">I need your help on a project.</label>
+                    </div>
+                    <button type="submit" class="btn.btn-primary" >Submit</button>
+            </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+<script src="script.js"></script>    
+</body>
+</html>

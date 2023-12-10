@@ -1,0 +1,11 @@
+
+NAME: SUBHODH BIJJUR
+OCCUPATION:STUDENT
+AGE:20
+PHONE NO:9902345
+EMAIL:ABC@GMAIL.COM
+A junior pursuing B.TECH in Computer Science Engineering at Dayananda Sagar University.
+Has experience in Web Development for about 2 years. Likes to watch and play cricket and likes to workout and keep himself in a good shape.   
+PROJECTS: LANDING PAGE CLONE OF STARBUCKS
+
+
